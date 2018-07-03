@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = r"GALERIAS/Colaboradores no Oi Bowl Jam.html"
+url = r"Engajamento_em_acao.html"
 page = open(url)
 soup = BeautifulSoup(page.read(), "lxml")
 
